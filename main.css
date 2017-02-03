@@ -1,0 +1,118 @@
+*,
+*:after,
+*:before {
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 1.125em;
+}
+
+body {
+	background-color: white;
+	color: #333;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	line-height: 1.45;
+}
+
+.tel {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 700;
+}
+
+.tel-icon {
+	width: 30px;
+	height: 30px;
+}
+
+h1, h2 {
+	margin: 1.414em 0 0.5em;
+	line-height: 1.2;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+h1 {
+	margin-top: 0;
+	font-size: 2.074em;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: normal;
+	margin-bottom: 60px;
+}
+
+h2 {
+	font-size: 1.728em;
+	text-transform: uppercase;
+	font-weight: normal;
+}
+
+header ul {
+	list-style: none;
+}
+
+header a {
+	color: navy;
+	text-decoration: underline;
+	display: block;
+}
+
+header li {
+	display: inline-block;
+	margin-right: 20px;
+}
+header li:last-child {
+	margin-right: 0px;
+}
+
+header {
+	width: 55%;
+	margin: 0 auto;
+	text-transform: uppercase;
+}
+
+main {
+	width: 85%;
+	margin: 0 auto;
+}
+
+section {
+	margin-bottom: 60px;
+}
+
+.adress {
+	float: left;
+	margin-left: 20px;
+}
+.map {
+	float: left;
+}
+#contacts:after {
+	clear: both;
+	display: block;
+	content: "";
+}
+
+.img1,
+.img3 {
+	float: left;
+	width: 300px;
+	height: auto;
+	border: 2px solid navy;
+	padding: 1%;
+	margin-right: 35px;
+}
+
+.img2 {
+	float: right;
+	margin-left: 35px;
+	width: 400px;
+	height: auto;
+	border: 2px solid navy;
+	padding: 1%;
+}
+
+.img3 {
+	width: 400px;
+	margin-bottom: 50px;
+}
